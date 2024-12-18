@@ -26,7 +26,6 @@ To run this project locally:
     ```
 3. Run the development server:
 
-For React:
     ```
     bash
     npm start
