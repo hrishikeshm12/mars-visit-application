@@ -20,17 +20,17 @@ To run this project locally:
    ```
 
 2. Install dependencies:
-```
-bash
-npm install
-```
+    ```
+    bash
+    npm install
+    ```
 3. Run the development server:
 
 For React:
-```
-bash
-npm start
-```
+    ```
+    bash
+    npm start
+    ```
 
 4. Open your browser at http://localhost:3000 to see the project.
 
