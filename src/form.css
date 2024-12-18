@@ -1,0 +1,93 @@
+/* src/form.css */
+.form-container {
+    margin: 15px auto; /* Center horizontally */  
+    max-width: 600px;
+    margin: 0.05 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .form-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    background-color: #e0e0df;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 10px;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 5px;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-top: 5px;
+    display: block;
+    font-family: Arial, sans-serif;
+    background-color: #fdd;
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 3px;
+  }
+  
+    .success-message {
+      text-align: center;
+      background-color: #dff0d8;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      color: #3c763d;
+    }
